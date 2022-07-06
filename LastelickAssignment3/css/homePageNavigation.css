@@ -1,0 +1,53 @@
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: rgb(5, 7, 133);
+    padding: 2%;
+    width: 100%;
+    text-align: left;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .bottom:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 20%;
+    background-color: #eee;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 2px;
+    text-align: center;
+  }
+  
+  a {
+    color: rgb(5, 7, 133);
+    text-decoration: none;
+  }
+
+  .scheduleLinks {
+    display: block;
+    padding: 8px;
+  }
+  
+  .scheduleLinks:hover {
+    text-decoration: underline;
+  }
